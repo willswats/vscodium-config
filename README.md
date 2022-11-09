@@ -16,6 +16,8 @@ Add the `settings.json` and `keybindings.json` to your VSCodium or VSCode `User`
 
 ### VSCodium flatpak
 
+To install the extensions, run these commands:
+
 ```bash
 flatpak run com.vscodium.codium --install-extension dsznajder.es7-react-js-snippets
 flatpak run com.vscodium.codium --install-extension dbaeumer.vscode-eslint
