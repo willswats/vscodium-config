@@ -1,0 +1,58 @@
+{
+  // VSCode Options
+  "editor.formatOnSave": true,
+  "editor.acceptSuggestionOnCommitCharacter": false,
+  "workbench.startupEditor": "none",
+  "security.workspace.trust.enabled": false,
+  "files.hotExit": "off",
+  "window.restoreWindows": "none",
+  "window.openFilesInNewWindow": "on",
+  "workbench.editor.untitled.hint": "hidden",
+  "explorer.compactFolders": false,
+  "update.mode": "manual",
+  "workbench.colorTheme": "Gnome Dark (Atom One)",
+  "window.menuBarVisibility": "toggle",
+  // Prettier
+  "[markdown]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "prettier.singleQuote": true,
+  // Vim
+  "vim.useCtrlKeys": false,
+  "vim.useSystemClipboard": true,
+  // React Snippets
+  "reactSnippets.settings.importReactOnTop": false,
+  // flatpak
+  "terminal.integrated.defaultProfile.linux": "bash",
+  "terminal.integrated.profiles.linux": {
+    "bash": {
+      "path": "/usr/bin/flatpak-spawn",
+      "args": ["--host", "distrobox", "enter", "main"]
+    }
+  },
+  "window.zoomLevel": 1
+}
