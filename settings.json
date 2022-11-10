@@ -1,17 +1,4 @@
 {
-  // VSCode Options
-  "editor.formatOnSave": true,
-  "editor.acceptSuggestionOnCommitCharacter": false,
-  "workbench.startupEditor": "none",
-  "security.workspace.trust.enabled": false,
-  "files.hotExit": "off",
-  "window.restoreWindows": "none",
-  "window.openFilesInNewWindow": "on",
-  "workbench.editor.untitled.hint": "hidden",
-  "explorer.compactFolders": false,
-  "update.mode": "manual",
-  "workbench.colorTheme": "Gnome Dark (Atom One)",
-  "window.menuBarVisibility": "toggle",
   // Prettier
   "[markdown]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
@@ -41,18 +28,35 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "prettier.singleQuote": true,
+  // React Snippets
+  "reactSnippets.settings.importReactOnTop": false,
   // Vim
   "vim.useCtrlKeys": false,
   "vim.useSystemClipboard": true,
-  // React Snippets
-  "reactSnippets.settings.importReactOnTop": false,
   // flatpak
-  "terminal.integrated.defaultProfile.linux": "bash",
+  "terminal.integrated.defaultProfile.linux": "fish",
   "terminal.integrated.profiles.linux": {
+    "fish": {
+      "path": "/usr/bin/flatpak-spawn",
+      "args": ["--host", "distrobox", "enter", "main", "-e", "fish"]
+    },
     "bash": {
       "path": "/usr/bin/flatpak-spawn",
-      "args": ["--host", "distrobox", "enter", "main"]
+      "args": ["--host", "distrobox", "enter", "main", "-e", "bash"]
     }
   },
-  "window.zoomLevel": 1
+  // VSCode Options
+  "editor.formatOnSave": true,
+  "editor.acceptSuggestionOnCommitCharacter": false,
+  "workbench.startupEditor": "none",
+  "security.workspace.trust.enabled": false,
+  "files.hotExit": "off",
+  "window.restoreWindows": "none",
+  "window.openFilesInNewWindow": "on",
+  "workbench.editor.untitled.hint": "hidden",
+  "explorer.compactFolders": false,
+  "update.mode": "manual",
+  "window.menuBarVisibility": "toggle",
+  "window.zoomLevel": 1,
+  "workbench.colorTheme": "Gnome Dark (Atom One)"
 }
