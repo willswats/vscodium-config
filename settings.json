@@ -28,8 +28,6 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "prettier.singleQuote": true,
-  // React Snippets
-  "reactSnippets.settings.importReactOnTop": false,
   // Vim
   "vim.useCtrlKeys": false,
   "vim.useSystemClipboard": true,

@@ -19,7 +19,6 @@ Add the `settings.json` and `keybindings.json` to your VSCodium or VSCode `User`
 To install the extensions, run these commands:
 
 ```bash
-flatpak run com.vscodium.codium --install-extension dsznajder.es7-react-js-snippets
 flatpak run com.vscodium.codium --install-extension dbaeumer.vscode-eslint
 flatpak run com.vscodium.codium --install-extension olifink.fedora-gnome-light-dark
 flatpak run com.vscodium.codium --install-extension ritwickdey.LiveServer
@@ -30,7 +29,6 @@ flatpak run com.vscodium.codium --install-extension esbenp.prettier-vscode
 flatpak run com.vscodium.codium --install-extension artdiniz.quitcontrol-vscode
 flatpak run com.vscodium.codium --install-extension vscodevim.vim
 flatpak run com.vscodium.codium --install-extension Koihik.vscode-lua-format
-flatpak run com.vscodium.codium --install-extension rangav.vscode-thunder-client
 ```
 
 ### VSCode flatpak
