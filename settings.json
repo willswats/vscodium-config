@@ -33,7 +33,7 @@
   // Vim
   "vim.useCtrlKeys": false,
   "vim.useSystemClipboard": true,
-  // flatpak
+  // VSCode Options
   "terminal.integrated.defaultProfile.linux": "fish",
   "terminal.integrated.profiles.linux": {
     "fish": {
@@ -45,7 +45,6 @@
       "args": ["--host", "distrobox", "enter", "main", "-e", "bash"]
     }
   },
-  // VSCode Options
   "editor.formatOnSave": true,
   "editor.acceptSuggestionOnCommitCharacter": false,
   "workbench.startupEditor": "none",
@@ -57,6 +56,6 @@
   "explorer.compactFolders": false,
   "update.mode": "manual",
   "window.menuBarVisibility": "toggle",
-  "window.zoomLevel": 1,
-  "workbench.colorTheme": "Gnome Dark (Atom One)"
+  "workbench.colorTheme": "Gnome Dark (Atom One)",
+  "window.zoomLevel": 1
 }
