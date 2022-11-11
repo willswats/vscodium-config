@@ -28,10 +28,12 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "prettier.singleQuote": true,
+  // React snippets
+  "reactSnippets.settings.importReactOnTop": false,
   // Vim
   "vim.useCtrlKeys": false,
   "vim.useSystemClipboard": true,
-  // VSCode Options
+  // Non-extension options
   "terminal.integrated.defaultProfile.linux": "fish",
   "terminal.integrated.profiles.linux": {
     "fish": {
