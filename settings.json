@@ -28,8 +28,8 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "prettier.singleQuote": true,
-  // React snippets
-  "reactSnippets.settings.importReactOnTop": false,
+  // Lua
+  "Lua.telemetry.enable": false,
   // Vim
   "vim.useCtrlKeys": false,
   "vim.useSystemClipboard": true,
@@ -56,6 +56,7 @@
   "explorer.compactFolders": false,
   "update.mode": "manual",
   "window.menuBarVisibility": "toggle",
-  "workbench.colorTheme": "Gnome Dark (Atom One)",
-  "window.zoomLevel": 1
+  "window.zoomLevel": 1,
+  "telemetry.telemetryLevel": "off",
+  "workbench.colorTheme": "Gnome Dark (Atom One)"
 }
