@@ -57,6 +57,5 @@
   "update.mode": "manual",
   "window.menuBarVisibility": "toggle",
   "window.zoomLevel": 1,
-  "telemetry.telemetryLevel": "off",
   "workbench.colorTheme": "Gnome Dark (Atom One)"
 }
