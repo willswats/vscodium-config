@@ -21,6 +21,8 @@ Add the `product.json` to your `config/VSCodium` directory.
 To install the extensions, run these commands:
 
 ```bash
+codium --install-extension rust-lang.rust-analyzer
+codium --install-extension tamasfe.even-better-toml
 codium --install-extension ms-vscode.cpptools
 codium --install-extension ms-dotnettools.csharp
 codium --install-extension DigitalBrainstem.javascript-ejs-support
@@ -48,7 +50,7 @@ alias codium="flatpak run com.vscodium.codium"
 Create a temporary alias and then run the commands in the [VSCodium](#vscodium) section:
 
 ```bash
-alias codium="flatpak run com.visualstudio.code
+alias codium="flatpak run com.visualstudio.code"
 ```
 
 ### VSCode
