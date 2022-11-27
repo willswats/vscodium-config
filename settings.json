@@ -38,11 +38,11 @@
   "terminal.integrated.profiles.linux": {
     "fish": {
       "path": "/usr/bin/flatpak-spawn",
-      "args": ["--host", "distrobox", "enter", "main", "-e", "fish"]
+      "args": ["--host", "toolbox", "run", "-c", "main", "fish"]
     },
     "bash": {
       "path": "/usr/bin/flatpak-spawn",
-      "args": ["--host", "distrobox", "enter", "main", "-e", "bash"]
+      "args": ["--host", "toolbox", "run", "-c", "main", "bash"]
     }
   },
   "editor.formatOnSave": true,
@@ -57,5 +57,6 @@
   "update.mode": "manual",
   "window.menuBarVisibility": "toggle",
   "window.zoomLevel": 1,
-  "workbench.colorTheme": "Gnome Dark (Atom One)"
+  "workbench.colorTheme": "Gnome Dark (Atom One)",
+  "git.autofetch": true
 }
