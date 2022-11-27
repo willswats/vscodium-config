@@ -39,23 +39,35 @@ codium --install-extension vscodevim.vim
 
 ### VSCodium flatpak
 
-Create a temporary alias and then run the commands in the [VSCodium](#vscodium) section:
+Create an alias and then run the commands in the [VSCodium](#vscodium) section:
 
 ```bash
 alias codium="flatpak run com.vscodium.codium"
 ```
 
+The rust analyzer extension will not work without this `flatpak override` ([source](https://github.com/rust-lang/rust-analyzer/issues/2873#issuecomment-1305760775)):
+
+```bash
+flatpak --user override com.vscodium.codium  --env=PATH=/app/bin:/usr/bin:/home/$USER/.cargo/bin
+```
+
 ### VSCode flatpak
 
-Create a temporary alias and then run the commands in the [VSCodium](#vscodium) section:
+Create an alias and then run the commands in the [VSCodium](#vscodium) section:
 
 ```bash
 alias codium="flatpak run com.visualstudio.code"
 ```
 
+The rust analyzer extension will not work without this `flatpak override` ([source](https://github.com/rust-lang/rust-analyzer/issues/2873#issuecomment-575815147)):
+
+```bash
+flatpak --user override com.visualstudio.code --env=PATH=/app/bin:/usr/bin:/home/$USER/.cargo/bin
+```
+
 ### VSCode
 
-Create a temporary alias and then run the commands in the [VSCodium](#vscodium) section:
+Create an alias and then run the commands in the [VSCodium](#vscodium) section:
 
 ```bash
 alias codium="code"
