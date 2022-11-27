@@ -5,9 +5,9 @@ My VSCodium config.
 ## Table of Contents <!-- omit in toc -->
 
 - [Installation](#installation)
+  - [VSCodium](#vscodium)
   - [VSCodium flatpak](#vscodium-flatpak)
   - [VSCode flatpak](#vscode-flatpak)
-  - [VSCodium](#vscodium)
   - [VSCode](#vscode)
 
 ## Installation
@@ -16,33 +16,45 @@ Add the `settings.json` and `keybindings.json` to your `config/VSCodium/User` di
 
 Add the `product.json` to your `config/VSCodium` directory.
 
-### VSCodium flatpak
+### VSCodium
 
 To install the extensions, run these commands:
 
 ```bash
-flatpak run com.vscodium.codium --install-extension ms-vscode.cpptools
-flatpak run com.vscodium.codium --install-extension ms-dotnettools.csharp
-flatpak run com.vscodium.codium --install-extension DigitalBrainstem.javascript-ejs-support
-flatpak run com.vscodium.codium --install-extension dbaeumer.vscode-eslint
-flatpak run com.vscodium.codium --install-extension olifink.fedora-gnome-light-dark
-flatpak run com.vscodium.codium --install-extension ritwickdey.LiveServer
-flatpak run com.vscodium.codium --install-extension sumneko.lua
-flatpak run com.vscodium.codium --install-extension yzhang.markdown-all-in-one
-flatpak run com.vscodium.codium --install-extension DavidAnson.vscode-markdownlint
-flatpak run com.vscodium.codium --install-extension esbenp.prettier-vscode
-flatpak run com.vscodium.codium --install-extension artdiniz.quitcontrol-vscode
-flatpak run com.vscodium.codium --install-extension vscodevim.vim
+codium --install-extension ms-vscode.cpptools
+codium --install-extension ms-dotnettools.csharp
+codium --install-extension DigitalBrainstem.javascript-ejs-support
+codium --install-extension dbaeumer.vscode-eslint
+codium --install-extension olifink.fedora-gnome-light-dark
+codium --install-extension ritwickdey.LiveServer
+codium --install-extension sumneko.lua
+codium --install-extension yzhang.markdown-all-in-one
+codium --install-extension DavidAnson.vscode-markdownlint
+codium --install-extension esbenp.prettier-vscode
+codium --install-extension artdiniz.quitcontrol-vscode
+codium --install-extension vscodevim.vim
+```
+
+### VSCodium flatpak
+
+Create a temporary alias and then run the commands in the [VSCodium](#vscodium) section:
+
+```bash
+alias codium="flatpak run com.vscodium.codium"
 ```
 
 ### VSCode flatpak
 
-Copy the commands from the [VSCodium flatpak](#vscodium-flatpak) section and replace `com.vscodium.codium` with `com.visualstudio.code`.
+Create a temporary alias and then run the commands in the [VSCodium](#vscodium) section:
 
-### VSCodium
-
-Copy the commands from the [VSCodium flatpak](#vscodium-flatpak) section and replace `flatpak run com.vscodium.codium` with `codium`.
+```bash
+alias codium="flatpak run com.visualstudio.code
+```
 
 ### VSCode
 
-Copy the commands from the [VSCodium flatpak](#vscodium-flatpak) section and replace `flatpak run com.vscodium.codium` with `code`.
+Create a temporary alias and then run the commands in the [VSCodium](#vscodium) section:
+
+```bash
+alias codium="code"
+```
