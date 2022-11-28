@@ -1,5 +1,5 @@
 {
-  // Prettier
+  // Prettier - Code formatter
   "[markdown]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
@@ -28,10 +28,10 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "prettier.singleQuote": true,
-  // Rust Analyzer
-  "editor.inlayHints.enabled": "offUnlessPressed",
-  // Sumenko Lua
+  // Lua
   "Lua.telemetry.enable": false,
+  // rust-analyzer
+  "editor.inlayHints.enabled": "offUnlessPressed",
   // Vim
   "vim.useCtrlKeys": false,
   "vim.useSystemClipboard": true,
