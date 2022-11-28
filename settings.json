@@ -35,6 +35,12 @@
   // Vim
   "vim.useCtrlKeys": false,
   "vim.useSystemClipboard": true,
+  "vim.insertModeKeyBindings": [
+    {
+      "before": ["j", "k"],
+      "after": ["<Esc>"]
+    }
+  ],
   // Non-extension options
   "terminal.integrated.defaultProfile.linux": "fish",
   "terminal.integrated.profiles.linux": {
