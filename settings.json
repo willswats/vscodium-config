@@ -33,7 +33,6 @@
   // rust-analyzer
   "editor.inlayHints.enabled": "offUnlessPressed",
   // Vim
-  "vim.useCtrlKeys": false,
   "vim.useSystemClipboard": true,
   "vim.insertModeKeyBindings": [
     {

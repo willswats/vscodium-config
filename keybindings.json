@@ -16,5 +16,25 @@
   {
     "key": "ctrl+pageup",
     "command": "-workbench.action.previousEditor"
+  },
+  // Navigate between explorer and editor
+  {
+    "key": "ctrl+h",
+    "command": "workbench.action.focusSideBar"
+  },
+  {
+    "key": "ctrl+l",
+    "command": "workbench.action.focusFirstEditorGroup"
+  },
+  // Navigate between terminal and editor
+  {
+    "key": "ctrl+j",
+    "command": "workbench.action.terminal.focus",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "ctrl+k",
+    "command": "workbench.action.focusActiveEditorGroup",
+    "when": "terminalFocus"
   }
 ]
