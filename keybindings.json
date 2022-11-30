@@ -36,5 +36,10 @@
     "key": "ctrl+k",
     "command": "workbench.action.focusActiveEditorGroup",
     "when": "terminalFocus"
+  },
+  // Remove ctrl+q quit
+  {
+    "key": "ctrl+q",
+    "command": "-workbench.action.quit"
   }
 ]
