@@ -30,8 +30,6 @@
   "prettier.singleQuote": true,
   // Lua
   "Lua.telemetry.enable": false,
-  // rust-analyzer
-  "editor.inlayHints.enabled": "offUnlessPressed",
   // Vim
   "vim.useCtrlKeys": false,
   "vim.useSystemClipboard": true,
